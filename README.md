@@ -5,3 +5,4 @@
 -  入れたもの
   + npm
   + vim
+	+ httpd
