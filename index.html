@@ -1,40 +1,45 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>KUT-ArtShow</title>
-<meta charaset="UTF-8"/>
-<link rel="stylesheet" href="./common/css/index.css" type="text/css"/>
-<script scr="common/js/jq/jquery-2.1.4.js"></script>
-<script scr="common/js/index.js"></script>
+	<title>KUT-ArtShow</title>
+	<meta charaset="UTF-8"/>
+	<link rel="stylesheet" href="./common/css/index.css" type="text/css"/>
+	<script src="common/js/jq/jquery-2.1.4.js"></script>
+	<script src="common/js/jq/masonry.pkgd.min.js"></script>
+	<script src="common/js/index.js"></script>
 </head>
 <body>
-	<wrapper>
+	<wrapper class="centered">
 		<header>
-			<div id="kwwlogo">
-				<img src="./common/images/kwwlogo.png" alt="KUT-WebWorks">
-			</div>
-			<div id="kaslogo">
-				<h1 class="logo">KUT-ArtShow</h1>
+			<div id="logo" class="centered">
+				<div id="kwwlogo">
+					<img src="./common/images/kwwlogo.png" alt="KUT_Web_Works">
+				</div>
+			 <div id="kaslogo">
+					<h1 class="logo">KUT Art Show</h1>
+				</div>
 			</div>
 			<nav>
-				<p>最新の作品へ</p>
-				<p>作品一覧へ</p>
 			</nav>
 		</header>
-		<div id="all_contents">
-			<aside>
+		<div id="all_contents" class="centered">
+			<div id="form">
 				<p>ここに投稿フォームができるよ</p>
-			</aside>
+			</div>
 			<div id="contents">
 				<article id="new_contents">
 					<p>ここに最新の作品のサムネイルが表示されるよ</p>
 				</article>
-				<article id="main_contents">
-					<p>ここに全作品のサムネイルが表示されそう</p>
+				<article id="main_contents" class=".Variable_Contents">
+					<div class="box a"></div>
+					<div class="box b"></div>
+					<div class="box c"></div>
+					<div class="box d"></div>
+					<div class="box e"></div>
 				</article>
 			</div>
 		</div>
-		<footer>
+		<footer class="centered">
 			<p>書いたのは私</p>
 		</footer>
 	</wrapper>
