@@ -1,0 +1,34 @@
+#3colum {
+  width: 1080px;
+  background: skyblue;
+}
+
+
+.colum {
+  float: left;
+  width: 300px;
+  height: 400px;
+  margin: auto 10px;
+  background: pink;
+}
+
+.colum img{
+  display: block;
+  width: 280px;
+  height: 280px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.colum h2{
+  text-align: center;
+}
+
+.colum p{
+  text-align: center;
+}
+
+footer {
+  background: brown;
+  clear: both;
+}
