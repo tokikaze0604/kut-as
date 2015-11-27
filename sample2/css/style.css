@@ -1,8 +1,27 @@
-html , body{
+html, body{
   margin: 0;
   width: 100%;
 }
 
 #wrapper {
   width: 1080px;
+}
+
+nav {
+  display: block;
+}
+
+nav h1 {
+  display: inline-block;
+}
+
+nav ul {
+  display: inline-block;
+}
+
+nav li {
+  display: inline-block;
+  float: left;
+  margin-left: 5px;
+  margin-bottom: 0;
 }
