@@ -1,6 +1,11 @@
-#3colum {
+#wrapper {
   width: 1080px;
-  background: skyblue;
+  margin: 0 auto;
+}
+
+#colum_3 {
+  width: 1080px;
+  background: blue;
 }
 
 
